@@ -1,0 +1,341 @@
+/*fonts*/
+.latii{font-family: lato;}
+.test{border: solid 2px blue;}
+*{margin: 0px;
+    padding: 0px;
+    font-family: lato;
+}
+
+/*Address bar*/
+.address{height: auto;
+    width: 100%;
+    background-color: rgb(241, 144, 64);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed top;
+    font-size: 1.5em;
+    letter-spacing: 1.5px;
+}
+
+nav{display: inline-flex;
+    width: 100%;
+    background-color: black;
+    
+}
+
+ul{display: flex;
+    width: 60%;
+    list-style-type: none;
+}
+
+nav ul li{padding: 20px;
+    margin: auto;
+    margin-left: 15%; 
+}
+
+ul li a:hover{color: rgb(182, 182, 182);}
+
+ul li a{font-size: 1.5em;
+    color: white; 
+    text-decoration: none;
+}
+
+.logo{width:15%;
+    height: 7%;
+    margin-left: 10%;
+}
+
+.welcome{margin: auto;
+    color: rgb(143, 94, 29);  
+    width: 50%;
+    padding: 1%; 
+    border-radius: 20px;
+}
+
+.backgroundblk{background-color: black;}
+
+.lghtgrey{background-color: rgb(173, 161, 140);
+    opacity: 80%;
+    margin: auto;
+    width: 25%;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+.welcome1{background-image:url("images/italy.jpg");
+    background-position:50% 50%;
+    height: 20%;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.row{display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 30vh;
+}
+
+.bck{background-color: rgb(165, 101, 50) !important;}
+
+.left,.right{width:50%;
+    text-align: center;
+    border: 2px solid rgb(241, 241, 241);
+}
+
+.direcciones{position: fixed bottom}
+
+hr{visibility: hidden;}
+
+.visita{margin-top: 7%}
+
+.rita{background-image: url("images/rita.jpg");
+    background-position: 50%, 50% ;
+    background-repeat: repeat-x;
+    height: 100%;
+    background-color: none;
+}
+
+.adda{font-size: 1.4rem;
+    margin-top: 2%;
+}
+
+.addy{color:white}
+
+.clk{font-size: 0.7em}
+
+.wine{background-image: url("images/wine.jpg")}
+
+.buttome{margin-top: 2%;
+    background-color: rgb(190, 84, 45);
+    border-style: solid;
+    border: none;
+    width: 25%;
+    height: 20%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(36, 19, 9);
+    border-radius: 20px;;
+}
+
+footer{background-color: rgb(165, 101, 50);
+    width: 100%;  
+}
+
+.foot{width: 50%;
+    justify-content: space-between;
+    display: flex;
+    margin: auto;
+}
+
+.fa {padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    height: 30;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+
+.fa-facebook {background: #3B5998;
+    color: white;
+}
+
+.fa-instagram {background: #881282;
+    color: white;
+}
+
+.fa-twitter {background: #55ACEE;
+    color: white;
+}
+
+.find{font-size: 1.5rem;
+    color:White;
+    Margin-top: 3%;
+}  
+
+/*hours &location page*/
+.hours1{background-color: rgba(124, 77, 38, 0.472)}
+
+.hours{width: 75%;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    background-color: rgb(189, 189, 192);
+    text-align: center;
+    color:rgb(78, 47, 22);
+    border-radius: 25px;
+}
+
+.upp{padding-top: 2%; }
+
+.stan{color: rgb(53, 2, 112);
+}
+
+.time{margin-top: 2%;}
+
+.mapphoto{width: 50%;}
+
+/*menu*/
+.mpage{background-color: rgb(189, 189, 192);}
+
+.menu{margin-top: 2%;}
+
+.menu .row{width: 90%;
+    margin: auto;
+    border: none;
+}
+.menu .row, .left, .right{height: auto;
+    font-weight: lighter;
+    font-size: 1.1rem;
+    background-color: rgb(226, 182, 101);
+}
+
+.extra{background-color: rgb(131, 7, 7);
+    color: white;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+
+.ex1{margin-top: 2%;}
+
+.aptize{display:block;
+    width: 50%;
+    text-align: center;
+}
+
+.half{width:50%;}
+
+.finito{width: 50%;
+    padding: 10px;;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(167, 167, 216);
+}
+
+.fono{visibility: hidden;
+    height: 0px;
+}
+
+@media only screen and (max-width: 700px) {
+    html{overflow-x: hidden}
+
+    body{position: relative;
+        width: 100%;
+        box-sizing: border-box;
+        background-color: rgb(165, 101, 50);
+    }
+    .address{letter-spacing: 1px;
+        font-size: 1rem;
+        margin: 0;    
+    }
+
+    ul{display: block;}
+
+    ul li a{font-size: 1rem;}
+
+    .logo{width: 40%;
+        margin: 15% 0;    
+    }
+
+    .welcome1{background-image: none;
+        font-size: 1.2rem;
+        padding: 5px;
+    }
+
+    .lghtgrey{width: 100%;
+        background-color: black;  
+        color: white; 
+        border-radius: 0; 
+    }
+
+    .welcome{width: 100%;
+        border-radius: 0;
+        background-color: rgb(204, 204, 204);
+        color: black; 
+        margin: 0;
+        padding: 0;
+    }
+
+    .row{display: block;
+        border: none;
+        width: 100%;
+    }
+
+    .left,.right{ 
+        width: 100%;
+        border: none;
+        padding: 10px;
+    }
+
+    .adda{font-size: 1.3rem;
+        width: 90%;
+        margin: 0 5% 0 5%
+    }
+
+    hr{visibility: visible;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .rita,.wine{visibility: hidden;
+        height: 0;
+        width:0;
+    }
+
+    .buttome{width: 60%;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .foot{width: 95%}
+
+    .bck{justify-content: center;}
+
+    /*hours*/
+    .hours{width: 100%;
+        border-radius: 0;
+        margin-top: 0;
+    }
+
+    .mapphoto{width: 90%;}
+
+    /*menu*/
+    .menu .row,.left,.right{
+        padding: 0px;
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .row{margin: auto;
+        width: 98% !important;
+    }
+
+    .ex1{width: 100%;}
+
+    .finito{width: 75%;}
+
+    .lf{display: block;}
+
+    .aptize{width: 90%;
+        margin: auto;
+    }
+
+    .salad{margin-top: 20px;}
+
+    .fono{visibility: visible;
+        height: 5px;
+        background-color:rgb(189, 189, 192);
+    }
+
+    .pica{width: 100%;
+        height: 200px;
+        border-image-repeat: none;
+    }
+}/*media*/
